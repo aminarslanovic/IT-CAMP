@@ -1,0 +1,17 @@
+.something{
+    background-color: rgb(66, 4, 66);
+    color: white;
+}
+.something:hover{
+    background-color: blue;
+}
+.nothing{
+    background-color: blueviolet;
+}
+.nista{
+    display: none;
+}
+.nothing:hover + .nista{
+    display: inline-block;
+    color: crimson;
+}

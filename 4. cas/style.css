@@ -1,0 +1,14 @@
+.div1{
+        background-color: lightgrey;
+        width: 350px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+}
+.div2{              
+    background-color:purple;
+    width: 350px;
+    border: 15px solid gray;
+    padding: 50px;
+    margin: 20px;
+}

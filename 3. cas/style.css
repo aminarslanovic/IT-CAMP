@@ -1,0 +1,6 @@
+.klasa {
+    color: blue;
+    border: 3px solid red;
+    border-left: 5px dotted blue;
+    border-radius: 50px;
+}
