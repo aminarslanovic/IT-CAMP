@@ -1,0 +1,29 @@
+.kartica, .kartica1, .kartica2, .kartica3{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    box-shadow: 20px 20px 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    width: 100%;
+    height: 200px;
+}
+.paragraf{
+    text-shadow: 10px 10px 20px;
+}
+.kartica{
+    transform: rotate(30deg);
+}
+.kartica1{
+    transform: scaleX(2);
+}
+.kartica2{
+    transform: translate(100px, 100px)
+}
+.kartica3{
+    transform: rotate(60deg);
+}
