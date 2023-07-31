@@ -27,7 +27,7 @@ body {
   text-align: left;
   word-wrap: break-word;
   position: relative;
-  color: #b3b3b3 !important;
+  color: #b3b3b3 ;
   pointer-events: initial;
 }
 
@@ -47,7 +47,7 @@ h1 {
   font-size: 3.75rem;
   font-weight: 700;
   pointer-events: initial;
-  font-family: Montserrat bold, sans-serif !important;
+  font-family: Montserrat bold, sans-serif ;
 }
 .paragraph h4 {
   text-align: left;
@@ -58,7 +58,7 @@ h1 {
   align-self: flex-start;
   word-wrap: break-word;
   position: relative;
-  font-family: Montserrat, sans-serif !important;
+  font-family: Montserrat, sans-serif ;
   font-weight: 400;
   pointer-events: initial;
 }
@@ -86,10 +86,10 @@ h1 {
   width: fit-content;
   word-wrap: break-word;
   position: relative;
-  color: #2ccc46 !important;
+  color: #2ccc46 ;
   padding: 0;
   line-height: 1.1;
-  font-family: Montserrat bold, sans-serif !important;
+  font-family: Montserrat bold, sans-serif ;
   margin-bottom: 0;
   margin-top: 20px;
   font-weight: 700;
@@ -108,7 +108,7 @@ h1 {
   word-wrap: break-word;
   position: relative;
   padding: 0;
-  font-family: Montserrat bold, sans-serif !important;
+  font-family: Montserrat bold, sans-serif ;
   font-weight: 400;
   margin: 0;
 }
@@ -146,19 +146,19 @@ h1 {
   text-align: center;
   border-radius: 0;
   align-self: flex-start;
-  border-width: 0 !important;
+  border-width: 0 ;
   position: relative;
   border-style: solid;
   stroke: none;
-  border-color: transparent !important;
+  border-color: transparent ;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
   background-image: none;
   margin: 30px auto 0 0;
   padding: 14px 64px 14px 63px;
-  color: #ffffff !important;
-  background-color: #000000 !important;
+  color: #ffffff ;
+  background-color: #000000 ;
 }
 .container {
   color: #111111;
@@ -210,9 +210,9 @@ h1 {
   text-align: left;
   box-sizing: border-box;
   position: relative;
-  width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  width: 100% ;
+  margin-left: 0 ;
+  margin-right: 0 ;
   border-style: solid;
   border-width: 1px;
   border-color: #454545;
@@ -239,7 +239,7 @@ h1 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  border-radius: 50px !important;
+  border-radius: 50px ;
   color: #111111;
   overflow: hidden;
   width: 265px;
@@ -256,7 +256,7 @@ h1 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  border-radius: 50px !important;
+  border-radius: 50px ;
   color: #111111;
   overflow: hidden;
   width: 219px;
@@ -274,7 +274,7 @@ h1 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  border-radius: 50px !important;
+  border-radius: 50px ;
   color: #111111;
   overflow: hidden;
   width: 304px;
@@ -292,7 +292,7 @@ h1 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  border-radius: 32px !important;
+  border-radius: 32px ;
   color: #111111;
   overflow: hidden;
   width: 232px;
@@ -310,7 +310,7 @@ h1 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  border-radius: 32px !important;
+  border-radius: 32px ;
   color: #111111;
   overflow: hidden;
   width: 169px;
@@ -328,7 +328,7 @@ h1 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  border-radius: 50px !important;
+  border-radius: 50px ;
   color: #111111;
   overflow: hidden;
   width: 260px;
@@ -343,10 +343,10 @@ h1 {
   align-self: flex-start;
   word-wrap: break-word;
   position: relative;
-  color: #000000 !important;
+  color: #000000 ;
   padding: 0;
   line-height: 1.1;
-  font-family: Montserrat bold, sans-serif !important;
+  font-family: Montserrat bold, sans-serif ;
   font-size: 3.75rem;
   font-weight: bold;
   bottom: 1000px;
