@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+#menubar{
+    left: -50%;
+}
+#youtube{
+    width: 100px;
+    height: 65px;
+    padding: 0 20px;
+    margin-left: -30%;
+}
+.pretrazivac{
+    width: 500px;
+    height: 40px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: 1px solid white;
+    padding: 0 30px;
+    font-size: 16px;
+    margin-left: -20%;
+}
+.lupa{
+    width: 50px;
+    height: 38px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#lupaikon{
+    position: relative;
+    top: 30%;
+    right: -30%;
+}
+#mic{
+    position: relative;
+    left: 1%;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+}

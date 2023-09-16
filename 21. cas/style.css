@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url(https://cdn.neowin.com/news/images/uploaded/2021/08/1629151565_tinder_story.jpg);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+}
+.color{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.529);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navlevo{
+    display: flex;
+    width: 650px;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+#logo{
+    width: 150px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 440px;
+    height: 100px;
+    list-style-type: none;
+    gap: 3%;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.navdesno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 650px;
+    height: 60px;
+    margin-left: 55%;
+    gap: 7%;
+}
+#jezik{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+#login{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 120px;
+    border: none;
+    height: 35px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+}
+.main h1{
+    color: white;
+    font-size: 12vh;
+    font-weight: bold;
+}

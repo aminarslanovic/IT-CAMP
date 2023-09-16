@@ -1,0 +1,100 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #35363A
+}
+.main{
+    display: flex;
+    background-color: #35363A;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 48px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    color: white;
+    padding: 20px 60px;
+    gap: 10px;
+}
+.desno{
+    white-space: nowrap;
+    display: flex;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+}
+
+#icon1{
+    justify-content: center;
+    display: flex;
+    margin-top: 25%;
+    padding-left: 10px;
+}
+.center{
+    display: flex;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    justify-content: center;
+    margin-top: 10%;
+    padding-left: 43%;
+}
+.search{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    max-height: 160px;
+    padding: 20px;
+    display: flex;
+    margin-left: 36%;
+}
+.pretrazivac{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    display: flex;
+    z-index: 3;
+    min-height: 40px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 584px;
+    margin-top: 28px;
+}
+.customize{
+    background-color: black;
+    bottom: 16px;
+    position: fixed;
+    right: 16px;
+    border-radius: 20%;
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16),0 1px 2px rgba(0,0,0,.23);
+    font-weight: 400;
+    min-width: 32px;
+    padding: 8px 16px;
+}
+.customtext{
+    font-size: 81.25%;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+}

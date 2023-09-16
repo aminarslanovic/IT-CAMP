@@ -1,0 +1,85 @@
+.main {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  align-items: center;
+}
+.background-krug {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(12, 107, 114, 0.57) 0%,
+    rgba(213, 18, 18, 0.1) 100%
+  );
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {
+    transform: scale(1.05);
+  }
+}
+.forma {
+  position: absolute;
+  left: 37%;
+  width: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#forma-slika {
+  height: 290px;
+  width: 100px;
+}
+.forma-slika {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 2%;
+  top: 2%;
+}
+.wrapper {
+  position: absolute;
+  top: 23%;
+  left: 39%;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  z-index: 2;
+}
+.paragraph-forma {
+  margin-bottom: 5px;
+}
+.forma-footer {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-right: 15px;
+}
+button {
+  margin-top: 5px;
+  width: 175px;
+  height: 25px;
+  transition: 1s;
+  transition-timing-function: ease;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#forma {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.678);
+  border: none;
+}
+#button {
+  color: white;
+  border: 1px solid lightblue;
+  background: linear-gradient(
+    270deg,
+    rgba(66, 6, 6, 0.57) 0%,
+    rgba(0, 22, 108, 0.447) 100%
+  );
+}
