@@ -119,3 +119,235 @@
 
 ////////////////4.21./////////////
 
+
+////////////////////4.22//Ilhan, Haris, Amela
+
+// let n = parseInt(prompt("Unesite broj: "))
+
+// for(let sat = 0; sat <= 23; sat++){
+//     for(let minut = 0; minut <= 59; minut++){
+//         for(let sekunda = 0; sekunda <=59; sekunda++){
+//             if(n==(sat / 10 + sat % 10 + minut / 10 + minut % 10 + sekunda / 10 + sekunda % 10)) {
+//                 console.log(`${sat} : ${minut} : ${sekunda}`);
+//             }
+//         }
+//     }
+// }
+
+//////////////4.26
+
+// let n = parseInt(prompt("Unesite broj:"))
+
+// for(let i = 0; i < n; i++){
+//     for(let j = 0; j < n * 2; j++)
+//         console.log(`${i}`);
+// }
+
+
+////////////4.28
+
+// let n;
+// let m;
+
+// const readline = require('readline');
+
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
+
+// rl.question('Enter rows: ', (inputName) => {
+//   n = inputName;
+
+//   rl.question('Enter columns: ', (inputAge) => {
+//     m = inputAge;
+
+//     for(let i = 1; i <= n; i++){
+//         let rowOutput = '';
+//         for(let j = 0; j <= m; j++){
+//             if(i === 1 || i === n){
+//                 rowOutput += "*"
+//             }
+//             else{
+//                 if(j === 1 || j === m){
+//                     rowOutput += "*"
+//                 }
+//                 else{
+//                     rowOutput += " "
+//                 }
+//             }
+//         }
+//         console.log(rowOutput);
+//     }
+
+//     rl.close();
+//   });
+// });
+
+////////////////b
+
+// let n = parseInt(prompt("Unesite broj redova:"))
+// let m = parseInt(prompt("Unesite broj kolona:"))
+
+// for(let i = 1; i <= n; i++){
+//     let rowOutput = '';
+//     for(let j = 1; j <= m; j++){
+//         if(i === 1 || i === n){
+//             rowOutput += "*"
+//         }
+//         else{
+//             if(j === 1 || j === m){
+//                 rowOutput += "*"
+//             }
+//             else{
+//                 rowOutput += " "
+//             }
+//         }
+//     }
+//     console.log("\n");
+//     console.log(rowOutput);
+// }
+
+//////////////////c
+
+// let n = parseInt(prompt("Unesite broj redova:"))
+// let m = parseInt(prompt("Unesite broj kolona:"))
+
+// for(let i = 1; i <= n; i++){
+//     let rowOutput = ''
+//     for(let j = 1; j <= m; j++){
+//         if(i >= j){
+//             rowOutput += "*"
+//         }
+//     }
+//     console.log(rowOutput);
+// }
+
+/////////////////////d
+
+// let n = parseInt(prompt("Unesite broj redova:"))
+// let m = parseInt(prompt("Unesite broj kolona:"))
+
+// for(let i = 1; i <= n; i++){
+//     let rowOutput = ''
+//     for(let j = 1; j <= m; j++){
+//         if(i <= j){
+//             rowOutput += "*"
+//         }
+//     }
+//     console.log(rowOutput);
+// }
+
+///////////////////g
+
+// let n = parseInt(prompt("Unesite broj redova:"))
+// let m = parseInt(prompt("Unesite broj kolona:"))
+
+// for(let i = 1; i <= n; i++){
+//     let rowOutput = ''
+//     for(let j = 1; j <= m; j++){
+//         if(i === n){
+//             rowOutput += "*"
+//         }
+//         else if(j === 1 || j === i){
+//             rowOutput += "*"
+//         }
+//         else{
+//             rowOutput += " "
+//         }
+//     }
+//     console.log(rowOutput);
+// }
+
+
+///////////////////dj
+
+// let n = parseInt(prompt("Unesite broj redova:"))
+// // let m = parseInt(prompt("Unesite broj kolona:"))
+
+// for(let i = 1; i <= n; i++){
+//     let rowOutput = ''
+//     for(let j = n; j >= 1; j--){
+//         if(i === 1){
+//             rowOutput += "*"
+//         }
+//         else if(j === n || j === i){
+//             rowOutput += "*"
+//         }
+//         else{
+//             rowOutput += " "
+//         }
+//     }
+//     console.log(rowOutput);
+// }
+
+
+////////////////////e
+
+// let n = parseInt(prompt("Unesite broj redova:"))
+
+// for (let i = 1; i <= n; i++) {
+//     let rowOutput = "";
+//     for (let k = n; k > i; k--) {
+//         rowOutput += " "
+//     }
+//     for (let j = 1; j <= i; j++) {
+//         rowOutput += "* "
+//     }
+//     console.log(rowOutput);
+// }
+
+
+
+///////////////4.29
+
+// let n = parseInt(prompt("Unesite broj redova:"))
+
+// for (let i = 1; i <= n; i++) {
+//     let rowOutput = "";
+//     for (let k = n; k > i; k--) {
+//         rowOutput += " "
+//     }
+//     for (let j = 1; j <= i; j++) {
+//         rowOutput += "* "
+//     }
+//     console.log(rowOutput);
+// }
+
+// for(let i = n-1; i >= 1; i--){
+//     let rowOutput = "";
+//     for (let k = n; k > i; k--) {
+//         rowOutput += " "
+//     }
+//     for (let j = 1; j <= i; j++) {
+//         rowOutput += "* "
+//     }
+//     console.log(rowOutput);
+// }
+
+///////////////////4.30
+
+// let n = parseInt(prompt("Unesite broj redova:"))
+
+// for (let i = n; i >= 1; i--) {
+//     let rowOutput = "";
+//     let iteration = 0;
+//     for (let k = n; k > i; k--) {
+//         rowOutput += " "
+//         iteration++;
+//     }
+//     for (let j = 1; j <= i; j++) {
+//         rowOutput += `${n-iteration} `
+//     }
+//     console.log(rowOutput);
+// }
+// for (let i = 2; i <= n; i++) {
+//     let rowOutput = "";
+//     for (let k = n; k > i; k--) {
+//         rowOutput += " "
+//     }
+//     for (let j = 1; j <= i; j++) {
+//         rowOutput += `${i} `
+//     }
+//     console.log(rowOutput);
+// }
