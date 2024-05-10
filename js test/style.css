@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#testing {
+    max-width: 500px;
+    margin: auto;
+}
+.post{
+    border: 1px solid white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
